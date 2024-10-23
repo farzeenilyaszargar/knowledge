@@ -2,7 +2,7 @@
 most important sortings are quickSort, radixSort, insertionSort & whatever is heap sort important for (idk)
 
 
-### Bubble Sort
+## Bubble Sort
 it is a simple algorithm that compares every two elements in an array and swaps them based on case (increasing/decreasing).   
   
 <ins>time complexity</ins>: O(n<sup>2</sup>)  
@@ -28,7 +28,7 @@ void bubbleSort(int *arr, int n)
 
 _____
 
-### Insertion Sort
+## Insertion Sort
 this sorting works by having two pointers. first we have 'i' which increases every iteration and is the key. then we have 'j' which loops every preceding element and checks if greater or not. if so then all preceding elements are brought forward one step till the condition fails and the last element replaced with key.  
   
 <ins>time complexity</ins>: O(n<sup>2</sup>)  
@@ -53,7 +53,7 @@ void insertionSort(int *arr, int n)
 ```
 _____
 
-### Selection Sort
+## Selection Sort
 this sorting
 <ins>time complexity</ins>: O(n<sup>2</sup>)  
 <ins>space complexity</ins>: 1
@@ -64,46 +64,46 @@ dsd
 
 _____
 
-### Merge Sort
+## Merge Sort
 
 
 
 _____
 
-### Quick Sort
+## Quick Sort
 
 
 _____
 
-### Counting Sort
-
-
-
-_____
-
-### Radix Sort
-
+## Counting Sort
 
 
 
 _____
 
-### Heap Sort
-
+## Radix Sort
 
 
 
 
 _____
 
-### Bucket Sort
+## Heap Sort
+
 
 
 
 
 _____
 
-### Shell Sort
+## Bucket Sort
+
+
+
+
+_____
+
+## Shell Sort
 
 
 
