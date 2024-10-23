@@ -78,13 +78,15 @@ void selectionSort(int arr[], int n)
 
 ```
 
+## Quick Sort
+
+
 
 ## Merge Sort
 
 
 
 
-## Quick Sort
 
 
 ## Counting Sort
