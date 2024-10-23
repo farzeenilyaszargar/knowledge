@@ -26,7 +26,6 @@ void bubbleSort(int *arr, int n)
 }
 ```
 
-_____
 
 ## Insertion Sort
 this sorting works by having two pointers. first we have 'i' which increases every iteration and is the key. then we have 'j' which loops every preceding element and checks if greater or not. if so then all preceding elements are brought forward one step till the condition fails and the last element replaced with key.  
@@ -51,7 +50,6 @@ void insertionSort(int *arr, int n)
     }
 }
 ```
-_____
 
 ## Selection Sort
 this sorting
@@ -62,31 +60,25 @@ this sorting
 dsd
 ```
 
-_____
 
 ## Merge Sort
 
 
 
-_____
 
 ## Quick Sort
 
-
-_____
 
 ## Counting Sort
 
 
 
-_____
 
 ## Radix Sort
 
 
 
 
-_____
 
 ## Heap Sort
 
@@ -94,14 +86,12 @@ _____
 
 
 
-_____
 
 ## Bucket Sort
 
 
 
 
-_____
 
 ## Shell Sort
 
