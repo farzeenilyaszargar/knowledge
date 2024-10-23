@@ -1,5 +1,5 @@
 # Sortings
-most important sortings are quickSort, radixSort, insertionSort & whatever the fuck
+most important sortings are quickSort, radixSort, insertionSort & whatever is heap sort important for (idk)
 
 
 ### Bubble Sort
