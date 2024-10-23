@@ -1,4 +1,7 @@
 # Sortings
+most important sortings are quickSort, radixSort, insertionSort & whatever the fuck
+
+
 ### Bubble Sort
 it is a simple algorithm that compares every two elements in an array and swaps them based on case (increasing/decreasing).   
   
