@@ -23,7 +23,7 @@ void linearSearch(int *arr, int target, int n)
 ## Binary Search
 works on sorted arrays by halving the array on each iteration by checking if target element is in the first or the other half.  
 
-> Time Complexity: O(log n)  
+> Time Complexity: O(log<sub>2</sub>n)  
 > Space Complexity: O(1)
 
 
