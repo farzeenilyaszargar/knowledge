@@ -52,12 +52,30 @@ void insertionSort(int *arr, int n)
 ```
 
 ## Selection Sort
-this sorting
+this sorting is just swapping the first element selected with minimum element. then the second is swapped with the min of new arr without the first element.
+  
 <ins>time complexity</ins>: O(n<sup>2</sup>)  
 <ins>space complexity</ins>: 1
 
 ```c
-dsd
+void selectionSort(int arr[], int n)
+{
+    for (int i = 0; i<n-1; i++)
+    {
+        int min_idx = i;
+        for (int j = i+1; i<n; j++)
+        {
+            if (arr[min_idx]>arr[j])
+            {
+                min_idx = j;
+            }
+        }
+        int temp = arr[i];
+        arr[i] = arr[min_idx];
+        arr[min_idx] = temp; 
+    }
+}
+
 ```
 
 
