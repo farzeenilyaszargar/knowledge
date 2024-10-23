@@ -1,15 +1,15 @@
 # Data Structures
 
-## Arrays & Strings
+- [ ] Arrays & Strings
 
-## Linked Lists
+- [ ] Linked Lists
 
-## Stacks
+- [ ] Stacks
 
-## Queues
+- [ ] Queues
 
-## Hashmaps
+- [ ] Hashmaps
 
-## Trees
+- [ ] Trees
 
-## Graphs
+- [ ] Graphs
