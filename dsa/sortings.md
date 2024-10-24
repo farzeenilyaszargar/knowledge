@@ -79,7 +79,41 @@ void selectionSort(int arr[], int n)
 ```
 
 ## Quick Sort
+this sorting works on the principle of divide and conquer. first we divide and keep dividing the array through recursion and then merge them in a sorted arrangement through the merge() function which creates two arrays of left and right and merges them both to get a sorted array recursively.
+  
+> time complexity: O(nlogn)   
+> space complexity: logn
 
+```c
+int partition(int arr[], int low, int high)
+{
+    int pivot = arr[high];
+    int i = (low - 1);
+    for (int j = low; j<high; j++)
+    {
+        if (pivot>=arr[j])
+        {
+            i++;
+            swap(&arr[i], &arr[j]);
+        }
+    }
+    swap(&arr[i+1], &arr[high]);
+    
+    return (i+1);
+
+}
+
+void quickSort(int arr[], int low, int high)
+{
+    if (low<high)
+    {
+        int pi = partition(arr, low, high);
+        quickSort(arr, low, pi-1);
+        quickSort(arr, pi+1, high);    
+    }
+    
+}
+```
 
 
 ## Merge Sort
@@ -151,29 +185,63 @@ void mergeSort(int arr[], int l, int r)
     }
 }
 
-void printArray(int arr[], int size)
-{
-    for (int i = 0; i < size; i++)
-        printf("%d ", arr[i]);
-    printf("\n");
-}
 ```
 
 
 
 ## Counting Sort
+this sorting works on the principle of divide and conquer. first we divide and keep dividing the array through recursion and then merge them in a sorted arrangement through the merge() function which creates two arrays of left and right and merges them both to get a sorted array recursively.
+  
+> time complexity: O(n+k)   
+> space complexity: max
 
 
 
+```c
+void countSort(int arr[], int n)
+{
+    int max = arr[0];
 
-## Radix Sort
 
+    for (int i = 0; i<n; i++)
+    {
+        if (arr[i]>max)
+        {
+            max = arr[i];
+        }
+    }
 
+    int *output = (int *)malloc(n*sizeof(int));
+    int *count = (int *)calloc(max+1, sizeof(int));
 
+    
+    for (int i = 0; i<n; i++)
+    {
+        count[arr[i]]++;
+    }
 
+    for (int i = 0; i<max+1; i++)
+    {
+        count[i] += count[i-1];
 
-## Heap Sort
+    }
 
+    for (int i = n-1; i>=0; i--)
+    {
+        output[count[arr[i]]-1] = arr[i];
+        count[arr[i]]--;
+    }
+
+    for (int i = 0; i<n; i++)
+    {
+        arr[i] = output[i];
+    }
+
+    free(output);
+    free(count);
+
+}
+```
 
 
 
