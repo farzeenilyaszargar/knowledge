@@ -79,8 +79,8 @@ void selectionSort(int arr[], int n)
 ```
 
 ## Quick Sort
-this sorting works on the principle of divide and conquer. first we divide and keep dividing the array through recursion and then merge them in a sorted arrangement through the merge() function which creates two arrays of left and right and merges them both to get a sorted array recursively.
-  
+we take a pivot element and divide the array into so recursively while sorting and taking pivot.
+
 > time complexity: O(nlogn)   
 > space complexity: logn
 
@@ -190,7 +190,7 @@ void mergeSort(int arr[], int l, int r)
 
 
 ## Counting Sort
-this sorting works on the principle of divide and conquer. first we divide and keep dividing the array through recursion and then merge them in a sorted arrangement through the merge() function which creates two arrays of left and right and merges them both to get a sorted array recursively.
+in this sorting we make use of counting logic by adding all nums occurence and arranging them in a new array better.
   
 > time complexity: O(n+k)   
 > space complexity: max
