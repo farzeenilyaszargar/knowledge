@@ -23,3 +23,6 @@ recursive algorithms have different ways of finding out time complexity
 - backtracking method
 - subsitution method
 - masters theorem
+
+![image](https://github.com/user-attachments/assets/25bd0f96-a128-4d36-8633-c4b01cc0bf5c)
+
