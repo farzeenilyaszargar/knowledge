@@ -12,13 +12,14 @@
 - worst case (big Oh)
   
 
-## Time Complexity
-
-
-## Space Complexity
-
 
 ## Analysis of Non Recursive Algorithms
+- a normal statement has O(1) time complexity
+- a looping statement that loops n times has O(n) time complexity
 
 ## Analysis of Recursive Algorithms
-
+recursive algorithms have different ways of finding out time complexity
+- recursive tree method
+- backtracking method
+- subsitution method
+- masters theorem
