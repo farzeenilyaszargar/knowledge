@@ -30,10 +30,9 @@
 
 _____
 ### Coding Languages
-- [ ] C
-- [ ] C++
-- [ ] Java
+- [x] C/C++
+- [x] Java
 - [ ] GO
-- [ ] Rust
-- [ ] C#
-- [ ] etc
+- [x] C#
+- [x] React
+
